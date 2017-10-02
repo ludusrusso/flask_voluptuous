@@ -7,7 +7,7 @@ setup(
   author = 'Ludovico O. Russo',
   author_email = 'ludus.russo@gmail.com',
   url = 'https://github.com/ludusrusso/flask_voluptuous/tree/develop', # use the URL to the github repo
-  download_url = 'https://github.com/ludusrusso/flask_voluptuous/tree/develop/archive/0.1.tar.gz', # I'll explain this in a second
+  download_url = 'https://github.com/ludusrusso/flask_voluptuous/tree/develop/archive/0.1-alpha.tar.gz', # I'll explain this in a second
   keywords = ['voluptous', 'flask', 'validation'], # arbitrary keywords
   classifiers = [],
   install_requires=[
