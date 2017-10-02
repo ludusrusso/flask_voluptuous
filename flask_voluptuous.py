@@ -2,6 +2,8 @@ from flask import request, abort
 import functools
 from voluptuous import *
 
+__version__ = '0.1.1-alpha'
+
 _ADMITTED_LOCATIONS = ['json', 'form', 'args']
 
 def expect(schema, location='json'):
@@ -14,8 +16,6 @@ def expect(schema, location='json'):
                 req = getattr(request, location).to_dict()
             else:
                 req = getattr(request, location)
-            print(req)
-            print(getattr(request, location))
             try:
                 request_locs = schema(req)
             except Invalid as e:
