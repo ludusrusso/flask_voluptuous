@@ -2,7 +2,7 @@ from flask import request, abort
 import functools
 from voluptuous import *
 
-__version__ = '0.1-alpha'
+__version__ = '0.1.1-alpha'
 
 _ADMITTED_LOCATIONS = ['json', 'form', 'args']
 
