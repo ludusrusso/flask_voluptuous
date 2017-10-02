@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'flask_voluptuous',
-  packages = ['flask_voluptuous'], # this must be the same as the name above
+  py_modules = ['flask_voluptuous'], # this must be the same as the name above
   version = '0.1',
   description = 'A simple flask extension for data validation with Voluptuous',
   author = 'Ludovico O. Russo',

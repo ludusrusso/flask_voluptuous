@@ -14,8 +14,6 @@ def expect(schema, location='json'):
                 req = getattr(request, location).to_dict()
             else:
                 req = getattr(request, location)
-            print(req)
-            print(getattr(request, location))
             try:
                 request_locs = schema(req)
             except Invalid as e:
