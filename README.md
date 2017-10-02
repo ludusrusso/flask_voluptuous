@@ -3,7 +3,7 @@ A simple flask extension for data validation with Voluptuous
 
 ## Usage
 
-```
+```python
 from falsk import Flask
 form flask_voluptuous import expect, Schema, Required
 
